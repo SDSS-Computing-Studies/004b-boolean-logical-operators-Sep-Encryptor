@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python3 task1.py",
       "input": "1.018",
-      "output": "1.018",
+      "output": "That is not within normal Earth orbit.",
       "comparison": "included",
       "timeout": 10,
       "points": 1
