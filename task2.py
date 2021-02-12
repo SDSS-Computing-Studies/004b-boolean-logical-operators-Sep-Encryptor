@@ -32,7 +32,7 @@ Enter a number: 8
 N=(input('enter an number')).strip()
 N=int(N)
 print(N,end=" ")
-C=n**(1/3)
+C=N**(1/3)
 C = (round(C,9))
 import math
 if math.sqrt(N)==int(math.sqrt(N)) and C==int(C) :
