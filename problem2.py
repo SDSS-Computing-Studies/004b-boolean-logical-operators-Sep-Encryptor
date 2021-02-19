@@ -23,3 +23,26 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+N=input('1st number: ')
+F=input('2nd number: ')
+N=int(N)
+F=int(F)
+if N <= F:
+    if F%N == 0:
+        print(N,end=" ")
+        print('is not a factor of',end=" ")
+        print(F)
+else:
+    print(N,end=" ")
+    print('is a fctor of',end=" ")
+    print(F)
+elif N>F:
+    if N%F == 0:
+        print(F,end=" ")
+        print('is a foctor',end=" ")
+        print(N)
+else:
+    print(F,end=" ")
+    print('is not a foctor of',end=" ")
+    print(N)
