@@ -20,8 +20,6 @@ Enter a number: 48
 
 #! python3
 
-<<<<<<< HEAD
-=======
 N=input('input a number: ')
 N=int(N)
 print(N,end=" ")
@@ -29,4 +27,3 @@ if N%6==0 and N%8 !=0:
     print("is frue")
 else:
     print('is not frue')
->>>>>>> 1983596303e33adf11369cb130085307f040973d

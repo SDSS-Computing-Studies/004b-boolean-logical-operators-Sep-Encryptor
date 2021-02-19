@@ -37,7 +37,7 @@ else:
     print(N,end=" ")
     print('is a fctor of',end=" ")
     print(F)
-elif N>F:
+if N>F:
     if N%F == 0:
         print(F,end=" ")
         print('is a foctor',end=" ")
