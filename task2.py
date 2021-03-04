@@ -35,7 +35,7 @@ print(N,end=" ")
 C=N**(1/3)
 C = (round(C,9))
 import math
-if math.sqrt(N)==int(math.sqrt(N)) and C==int(C) :
+if math.sqrt(N)==int(math.sqrt(N)) and C==int(C):
     print('is both a perfect square and a perfect cube.')
 elif math.sqrt(N)==int(math.sqrt(N)):
     print('is only a perfect square.')
