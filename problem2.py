@@ -37,7 +37,15 @@ if N <= F:
         print(N,end=" ")
         print('is not a factor of',end=" ")
         print(F)
+<<<<<<< HEAD
 elif N>F:
+=======
+else:
+    print(N,end=" ")
+    print('is a fctor of',end=" ")
+    print(F)
+if N>F:
+>>>>>>> b71ca3b3de208de7b34bb8ea4e1c2aa902d617b8
     if N%F == 0:
         print(F,end=" ")
         print('is a factor of',end=" ")
