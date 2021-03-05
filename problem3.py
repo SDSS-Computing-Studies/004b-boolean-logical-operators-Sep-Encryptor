@@ -30,4 +30,23 @@ Enter an integer=>2
 import math
 a = float(input("Please enter integer "))
 b = float(input("Please enter integer "))
-c - float(input("Please enter integer "))
+c = float(input("Please enter integer "))
+
+if a > b and a > c:
+    s1 = b
+    s2 = c
+    big = a
+elif b > a and b > c:
+    s1 = a
+    s2 = c
+    big = b
+elif c > a and c> b:
+    s1 = a
+    s2 = b
+    big = c
+
+if (s1**2 + s2**2) == big**2:
+    print(str(int(s1)) + "," + str(int(s2)) + "," + str(int(big)) + " form a pythagorean triple")
+else:
+    print(str(int(s1)) + "," + str(int(s2)) + "," + str(int(big)) + " do not form a pythagorean triple")
+    
