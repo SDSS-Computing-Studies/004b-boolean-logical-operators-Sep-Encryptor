@@ -24,33 +24,20 @@ Enter another number: 25
 4 is not a factor of 25
 """
 
-N=input('1st number: ')
-F=input('2nd number: ')
-N=int(N)
-F=int(F)
-if N <= F:
-    if F%N == 0:
-        print(N,end=" ")
-        print(' is a factor of',end=" ")
-        print(F)
-    else:
-        print(N,end=" ")
-        print('is not a factor of',end=" ")
-        print(F)
-<<<<<<< HEAD
-elif N>F:
-=======
+a = float(input("an integer "))
+b = float(input("an integer "))
+
+if a < b:
+    small = a
+    big = b 
+elif b < a:
+    small = b
+    big = a
+
+
+if (big % small) == 0:
+    print(str(int(small)) + " is a factor of " + str(int(big)))
 else:
-    print(N,end=" ")
-    print('is a fctor of',end=" ")
-    print(F)
-if N>F:
->>>>>>> b71ca3b3de208de7b34bb8ea4e1c2aa902d617b8
-    if N%F == 0:
-        print(F,end=" ")
-        print('is a factor of',end=" ")
-        print(N)
-    else:
-        print(F,end=" ")
-        print('is not a factor of',end=" ")
-        print(N)
+    print(str(int(small)) + " is not a factor of " + str(int(big)))
+    
+
